@@ -62,3 +62,7 @@
 
 mmap,unmap思路：tcb中保存了每个task的memory set，使用memory set进行alloc即可，预计为接下来的工作
 ~~用frame_alloc调了一下午+一晚上...~~
+
+### 4.16
+
+预感到数模没时间看os，所以今天赶完了lab2 感觉差不多 以后多用gpt吧
