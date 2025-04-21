@@ -73,8 +73,8 @@ mmap,unmap思路：tcb中保存了每个task的memory set，使用memory set进�
 
 ### 4.20
 
-阅读第五章
+阅读第五章，了解了进程调度的大致流程
 
 ### 4.21
 
-完成lab3和ch5作业
+完成lab3和ch5作业，了解了stride调度的大致的具体实现流程
