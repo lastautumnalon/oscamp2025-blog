@@ -79,10 +79,18 @@ mmap,unmap思路：tcb中保存了每个task的memory set，使用memory set进�
 
 完成lab3和ch5作业，了解了stride调度的大致的具体实现流程
 
+### 5.1
+
+要准备期末了，预计要鸽
+
+
 ### 5.2
 
 完成ch6,7,8
 
-### 5.1
+## 第三阶段
 
-要准备期末了，预计要鸽
+### 练习1
+
+1.在axhal中加入ANSI控制字符
+2.在axstd中加入hashbrown的hashmap。
