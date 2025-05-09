@@ -88,9 +88,23 @@ mmap,unmap思路：tcb中保存了每个task的memory set，使用memory set进�
 
 完成ch6,7,8
 
-## 第三阶段
+## 第三阶段 5.3-5.9
 
-### 练习1
+### 练习
 
-1.在axhal中加入ANSI控制字符
+1.在axhal中加入ANSI控制字符（后来好像会莫名其妙导致其他测例的评测问题所以更改到user app 了）
 2.在axstd中加入hashbrown的hashmap。
+
+### 练习
+alt alloc 模拟实现即可
+shell 加了rename和mv 目前是分开写的实现 也就是说mv是独立写的
+
+### 练习
+添加mmap的syscall
+先获取fd,然后alloc内存，然后写内容
+
+### 练习
+ramfs_rename ramfs默认不支持rename,在这里要实现的话创建新文件写入然后删除原文件即可
+simple_hv 跟cpu设计差不多，回到Guest之后PC+4
+
+5.9 第三阶段完成
